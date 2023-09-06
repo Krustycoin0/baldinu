@@ -31,6 +31,24 @@
     
     <main>
         <!-- Il contenuto del blog va qui -->
+
+        <!-- Aggiungi un modulo di commento -->
+        <section id="comments">
+            <h2>Commenti</h2>
+            <div id="comment-form">
+                <h3>Lascia un commento</h3>
+                <form action="#" method="post">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="comment">Commento:</label>
+                    <textarea id="comment" name="comment" required></textarea>
+                    <input type="submit" value="Invia Commento">
+                </form>
+            </div>
+            <div id="comment-list">
+                <!-- Qui verranno visualizzati i commenti -->
+            </div>
+        </section>
     </main>
     
     <footer>
