@@ -22,6 +22,12 @@ body,html{
 	float: left;
 }
 }
+/* Stile per ridimensionare le immagini per adattarsi ai dispositivi */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #logo a
 {
     /* crea la superficie cliccabile*/
